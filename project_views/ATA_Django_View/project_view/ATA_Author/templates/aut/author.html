@@ -1,0 +1,123 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+        <link rel="stylesheet" href="{% static 'css/mentimain.css' %}">
+        <title>Author</title>
+    </head></header>
+    <body>
+        <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white box-shadow">
+            <h5 class="my-0 mr-md-auto font-weight-normal">Alpha Tech Academy</h5>
+                <nav class="my-2 my-md-0 mr-md-3">
+                <a class="p-2 text-dark" href="{% url 'home'%}">Home</a>
+                <a class="p-2 text-dark" href="{% url 'blog'%}">Blog</a>
+                <a class="p-2 text-dark" href="{% url 'mentor'%}">Mentor</a>
+                <a class="p-2 text-dark" href="{% url 'mentee'%}">Mentee</a>
+                <a class="p-2 text-dark" href="{% url 'author'%}">Author</a>
+            </nav>
+        </div>
+
+        <div class="header-bod border-top ">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="text-center col-12 box">
+                        <img src="{% static 'img/alpha-logo.png' %}">
+                    </div>
+                    <div class="text-center col-12">
+                        <h1>Alpha Tech Academy</h1>
+                    </div>
+                    <div class="text-center col-12">
+                        <p>Alpha Tech Academy is a tech talent incubator that gives everyone (even
+                            no IT background) a chance to be a professional Tech Talent within 3
+                         mounts. Contact Person: Email : academy@alphatech.id Mobile phone: 0877 9609 9530</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container-fluid col-md-6">
+            <div class="row">
+                <div class="col-md-12 center">
+                    <img src="{% static 'img/profile-pic2.jpg' %}" class="authorr">
+                </div>
+            <br>
+            <h3>Nama Author</h3><br>
+            <div class="col-md-12"><h4>Please Write your Summary, This is author page.</h4><br></div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 center">
+                    <span>Alamat</span>
+                </div>
+                <div class="col-md-6 center">      
+                    <span>: Jl. Raya Ijen</span>
+                </div>
+                <div class="col-md-6 center">
+                    <span>Telephon</span>
+                </div>
+                <div class="col-md-6 center">
+                    <span>: 085724552767</span>
+                </div>
+                <div class="col-md-6 center">
+                    <span>Education</span>
+                </div>
+                <div class="col-md-6 center">
+                    <span>: SMK</span>
+                </div>
+                <div class="col-md-6 center">
+                    <span>Profession</span>
+                </div>
+                <div class="col-md-6 center">
+                    <span>: Pegawai Swasta</span>
+                </div>
+                <div class="col-md-6 center">
+                    <span>Nationality</span>
+                </div>
+                <div class="col-md-6 center">
+                    <span>: Indonesia</span>
+                </div>
+                <div class="col-md-6 center">
+                    <span>Company</span>
+                </div>
+                <div class="col-md-6 center">
+                    <span>: CV. Jaya Makmur</span>
+                </div>
+                <div class="col-md-6 center">
+                    <span>Email</span>
+                </div>
+                <div class="col-md-6 center">
+                    <span>: buruh@gmail.com</span>
+                </div>
+                <div class="col-md-6 center">
+                    <span>Address</span>
+                </div>
+                <div class="col-md-6 center">
+                    <span>: Jl. Raya Ijen</span>
+                </div>
+                <div class="col-md-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.314182207617!2d112.60828181395514!3d-7.966446794262217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7882865ded0697%3A0xa77fa961a7c4e4b7!2sSepulsa+Lodge+Malang!5e0!3m2!1sen!2sid!4v1549978336490" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div><br>
+            </div>              
+        </div>
+        <footer class="bg-footer">
+            <div class=" padding">
+                <div class="container">
+                    <div class="text-center">
+                        <span>Our Product:</span>
+                        <img src="{% static 'img/logo-grey-alphapay.png' %}">
+                        <img src="{% static 'img/logo-grey-sepulsa.png' %}">
+                        <img src="{% static 'img/logo-grey-alphabill.png' %}">
+                    </div>
+                </div>
+            </div>
+            <div class="bg-footer2 padding2">
+                    <div class="container">
+                        <div class="text-center">
+                            <span class="teks"><b>Contact Person:</b> Mobile Phone: 0877 9609 9530. Email: <a href="">academy@alphatech.id</a></span>
+                        </div>
+                    </div>
+                </div>
+        </footer>
+    </body>
+    </html>

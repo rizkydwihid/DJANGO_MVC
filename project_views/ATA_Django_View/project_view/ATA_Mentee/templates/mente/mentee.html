@@ -1,0 +1,98 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+        <link rel="stylesheet" href="{% static 'css/mentimain.css' %}">
+        <title>Mentee</title>
+    </head></header>
+    <body>
+        <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white box-shadow">
+            <h5 class="my-0 mr-md-auto font-weight-normal">Alpha Tech Academy</h5>
+                <nav class="my-2 my-md-0 mr-md-3">
+                <a class="p-2 text-dark" href="{% url 'home'%}">Home</a>
+                <a class="p-2 text-dark" href="{% url 'blog'%}">Blog</a>
+                <a class="p-2 text-dark" href="{% url 'mentor'%}">Mentor</a>
+                <a class="p-2 text-dark" href="{% url 'mentee'%}">Mentee</a>
+                <a class="p-2 text-dark" href="{% url 'author'%}">Author</a>
+            </nav>
+        </div>
+
+        <div class="header-bod border-top ">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="text-center col-12 box">
+                        <img src="{% static 'img/alpha-logo.png' %}">
+                    </div>
+                    <div class="text-center col-12">
+                        <h1>Alpha Tech Academy</h1>
+                    </div>
+                    <div class="text-center col-12">
+                        <p>Alpha Tech Academy is a tech talent incubator that gives everyone (even
+                            no IT background) a chance to be a professional Tech Talent within 3
+                         mounts. Contact Person: Email : academy@alphatech.id Mobile phone: 0877 9609 9530</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <br>
+            <h3>Our Mentee</h3>
+            <br>
+        </div>
+        <div class="container bg-content">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="{% static 'img/sj.png' %}" class="pict"/>
+                </div>
+                <div class="col-md-8">
+                    <h2>Steve Jobs</h2>
+                    <h5>"I learn so much from Alpha Tech."</h5>
+                </div>
+            </div>
+        <div class="margin">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="{% static 'img/lp.png' %}" class="pict"/>
+                </div>
+                <div class="col-md-8">
+                    <h2>Larry Page</h2>
+                    <h5>"Great place to learn about programming."</h5>
+                </div>
+            </div>
+        </div>
+        <div class="margin">
+            <div class="row">
+                <div class="col-md-4">
+                        <img src="{% static 'img/fb.png' %}" class="pict">
+                    </div>
+                    <div class="col-md-8">
+                        <h2>Mark Zuckenberg</h2>
+                        <h5>"The best place for who want to be a great IT talent."</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <footer class="bg-footer">
+            <div class=" padding">
+                <div class="container">
+                    <div class="text-center">
+                        <span>Our Product:</span>
+                        <img src="{% static 'img/logo-grey-alphapay.png' %}">
+                        <img src="{% static 'img/logo-grey-sepulsa.png' %}">
+                        <img src="{% static 'img/logo-grey-alphabill.png' %}">
+                    </div>
+                </div>
+            </div>
+            <div class="bg-footer2 padding2">
+                    <div class="container">
+                        <div class="text-center">
+                            <span class="teks"><b>Contact Person:</b> Mobile Phone: 0877 9609 9530. Email: <a href="">academy@alphatech.id</a></span>
+                        </div>
+                    </div>
+                </div>
+        </footer>
+    </body>
+    </html>
