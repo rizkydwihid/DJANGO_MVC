@@ -37,6 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'ATA',
+    'ATA_Author',
+    'ATA_Blog',
+    'ATA_Mentee',
+    'ATA_Mentor',
 ]
 
 MIDDLEWARE = [
@@ -118,3 +123,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+MEDIA_ROOT = 'picture/'
+MEDIA_URL = '/picture/'

@@ -1,0 +1,23 @@
+{% extends 'homepage/headfoot.html' %}
+{% load static %}
+<title>Mentee</title>
+{% block content %}
+        <div class="text-center">
+            <br>
+            <h3>Our Mentee</h3>
+            <br>
+        </div>
+        {% for data in mentee %}
+        <div class="container bg-content">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="{% static 'img/sj.png' %}" class="pict"/>
+                </div>
+                <div class="col-md-8">
+                    <h2>{{ data.name }}</h2>
+                    <h5>{{ data.keterangan }}</h5>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+    {% endblock %}
